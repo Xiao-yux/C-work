@@ -8,7 +8,7 @@ def parse_arguments():
     """
     解析命令行参数。
     """
-    parser = argparse.ArgumentParser(description='菜单v1.3\n\n\n邮箱: 1409109991@qq.com')
+    parser = argparse.ArgumentParser(description='菜单v1.5\n\n\n')
     
     # 添加参数
     parser.add_argument('--get_gpu_info', action='store_true', help='获取GPU信息')
